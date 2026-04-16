@@ -2,9 +2,28 @@
 <html>
   <head>
     <title>Browser Tab</title>
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.2/lib/p5.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-123456789"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-123456789');
+</script>
     <script src="sketch.js"></script>
-  </head>
+  </head><body style="background-color: black; color: white; padding: 20px;">
+    <main style="column-count: 2;">
+      <h1>My p5.js Project</h1>
+      <p>This is my website with a p5.js fractal background.</p>
+      
+      <button onclick="alert('Widget 1 is working!')">Click for Magic</button>
+      <br><br>
+      <iframe width="300" height="200" src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe>
+
+      <p><a href="about.html" style="color: yellow;">Go to My About Page</a></p>
+      <p><a href="https://p5js.org" style="color: yellow;">Visit p5.js Site</a></p>
+    </main>
+  </body>
+</html>
   <body>
     <main>
       <h1 style="color: white; font-family: sans-serif; padding: 20px;">My p5.js Background</h1>
